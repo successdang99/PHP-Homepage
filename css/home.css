@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#messages{
+    height: 90vh;
+    overflow-x: hidden;
+    padding: 10px;
+    background-image: url("../images/background-chat.png");
+}
+
+form{
+    display: flex;
+    min-height: 30px;
+}
+
+input{
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#message{
+    flex: 2;
+    text-align: left;
+}
+
+.moveRight{
+    background-color: #dcf8c6 !important;
+    float: right;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.msg{
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    width: fit-content;
+    max-width: 60%;
+}
+
+.msg p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.msg h2{
+    margin: 0;
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 1.0rem;
+    word-wrap: break-word;
+}
+
+.msg span{
+    width: 100vh;
+    text-align: right;
+}
+
+.msg span h3{
+    font-size: 0.7rem;
+    font-weight: normal;
+    margin: 0;
+    margin-right: 5px;
+}
